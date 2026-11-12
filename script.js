@@ -4,68 +4,69 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
+const perguntas = [
   {
-    enunciado: `Você está fazendo uma atividade escolar e encontra uma informação gerada por uma IA. O que você faz?`,
+    enunciado: `Como você reagiria se a IA começasse a tomar decisões importantes na sociedade?`,
     alternativas: [
       {
-        texto: "Confia na resposta da IA sem verificar.",
-        afirmacao: "Aprendeu que confiar totalmente na IA pode trazer riscos quando as informações não são verificadas."
+        texto: "Acreditaria que a IA sempre toma as melhores decisões.",
+        afirmacao: "Refletiu sobre a influência da inteligência artificial nas decisões da sociedade."
       },
       {
-        texto: "Pesquisa em outras fontes para confirmar a informação.",
-        afirmacao: "Reconhece a importância de verificar as informações geradas pela IA antes de utilizá-las."
+        texto: "Defenderia que os seres humanos continuassem participando das decisões.",
+        afirmacao: "Reconhece que a participação humana é essencial nas decisões que afetam a sociedade."
       }
     ]
   },
   {
-    enunciado: `Um amigo utiliza a inteligência artificial para criar uma imagem de outra pessoa sem autorização. Qual é sua opinião?`,
+    enunciado: `Se a IA pudesse substituir professores nas escolas, o que você pensaria?`,
     alternativas: [
       {
-        texto: "Acha normal, pois a IA permite criar qualquer imagem.",
-        afirmacao: "Percebeu que é necessário refletir sobre os limites éticos do uso da inteligência artificial."
+        texto: "Acreditaria que a IA poderia substituir completamente os professores.",
+        afirmacao: "Percebeu que a tecnologia pode transformar a educação e as formas de ensinar."
       },
       {
-        texto: "Acredita que é importante respeitar a imagem e a privacidade das pessoas.",
-        afirmacao: "Valoriza a privacidade e o respeito às pessoas no uso de ferramentas de inteligência artificial."
+        texto: "Acreditaria que a IA deveria apenas auxiliar os professores.",
+        afirmacao: "Valoriza a importância dos professores e reconhece a IA como uma ferramenta de apoio."
       }
     ]
   },
   {
-    enunciado: `Você precisa estudar para uma prova e decide utilizar uma ferramenta de IA. Como pretende usá-la?`,
+    enunciado: `Como você lidaria com notícias falsas criadas por inteligência artificial?`,
     alternativas: [
       {
-        texto: "Pede para a IA fornecer todas as respostas e apenas copia.",
-        afirmacao: "Percebeu que utilizar a IA sem desenvolver o próprio raciocínio pode prejudicar sua aprendizagem."
+        texto: "Compartilharia as notícias sem verificar sua origem.",
+        afirmacao: "Compreendeu a importância de desenvolver o pensamento crítico diante dos conteúdos digitais."
       },
       {
-        texto: "Pede explicações, exemplos e exercícios para praticar.",
-        afirmacao: "Utiliza a inteligência artificial como apoio para aprender e desenvolver suas habilidades."
+        texto: "Verificaria a fonte antes de acreditar ou compartilhar.",
+        afirmacao: "Demonstra responsabilidade e preocupação com a circulação de informações verdadeiras."
       }
     ]
   },
   {
-    enunciado: `Uma empresa começa a utilizar robôs e inteligência artificial para realizar algumas tarefas dos funcionários. O que você pensa?`,
+    enunciado: `Se a tecnologia avançasse a ponto de controlar grande parte da rotina das pessoas, qual seria sua opinião?`,
     alternativas: [
       {
-        texto: "A tecnologia pode facilitar tarefas e aumentar a produtividade.",
-        afirmacao: "Acredita que a inteligência artificial pode facilitar o trabalho e criar novas possibilidades profissionais."
+        texto: "Acharia positivo depender cada vez mais da tecnologia.",
+        afirmacao: "Reconhece as facilidades que a tecnologia pode proporcionar à vida cotidiana."
       },
       {
-        texto: "É necessário preparar os trabalhadores para as mudanças tecnológicas.",
-        afirmacao: "Reconhece que a evolução tecnológica exige capacitação e atenção aos impactos sobre os trabalhadores."
+        texto: "Defenderia um equilíbrio entre tecnologia e atividades humanas.",
+        afirmacao: "Valoriza o equilíbrio entre inovação tecnológica, autonomia e relações humanas."
       }
     ]
   },
   {
-    enunciado: `Em 2049, a inteligência artificial está presente em quase todos os lugares. Como você gostaria que ela fosse utilizada?`,
+    enunciado: `Imagine que estamos em 2049. Qual futuro você gostaria de construir com a inteligência artificial?`,
     alternativas: [
       {
-        texto: "Para automatizar o máximo possível de atividades humanas.",
-        afirmacao: "Imagina um futuro em que a inteligência artificial automatiza muitas tarefas e transforma a rotina das pessoas."
+        texto: "Um futuro totalmente controlado pela tecnologia.",
+        afirmacao: "Imagina um futuro marcado por grandes avanços tecnológicos e pela automação."
       },
       {
-        texto: "Para ajudar as pessoas, respeitando os direitos humanos e a ética.",
-        afirmacao: "Defende um futuro em que a inteligência artificial contribua para o bem-estar das pessoas com responsabilidade e respeito."
+        texto: "Um futuro em que a tecnologia trabalha a favor da humanidade.",
+        afirmacao: "Defende um futuro em que a inteligência artificial seja utilizada com consciência, ética e responsabilidade."
       }
     ]
   }
