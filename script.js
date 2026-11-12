@@ -4,7 +4,6 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-
   {
     enunciado: `Como você reagiria se a IA começasse a tomar decisões importantes na sociedade?`,
     alternativas: [
